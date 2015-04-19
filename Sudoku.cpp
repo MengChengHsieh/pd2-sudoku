@@ -130,24 +130,7 @@ int Sudoku::GiveQuestion()
 			r[cnt]=num; ++cnt;
 		}
 	}
-	/*for(int i = 0;i<n;++i){
-	 * 		cout<<r[i]<<" ";
-	 * 			}*/
 
-	/*switch(mode){
-	 * 		case 0:
-	 * 					GQ0(r);
-	 * 								break;
-	 * 										case 1:
-	 * 													GQ1(r);
-	 * 																break;
-	 * 																		case 2:
-	 * 																					GQ2(r);
-	 * 																								break;
-	 * 																										default:
-	 * 																													cout << "fault"<<endl;
-	 * 																																break;
-	 * 																																	}*/
 	GQ0(r);
 
 }
